@@ -35,13 +35,13 @@
     font-weight: bold;
 }
 .container p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #130101;
     font-weight: 500;
     text-align: justify;
 }
 .container h2 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin-bottom: 30px;
     color: blue;
     font-weight: bold;
@@ -89,7 +89,7 @@ h2::after {
     text-align: center;
 }
 .card-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -98,7 +98,7 @@ h2::after {
     background: orangered;
 }
 .card-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--gris);
     font-weight: 500;
     justify-content: center;
@@ -178,7 +178,7 @@ h2::after {
 
 .service-card h3 {
   margin: 0 0 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 800;
   color: #0f1c2e;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -211,6 +211,11 @@ h2::after {
     font-size: 50px;
     background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.accordion-button {
+    background-color: orangered;
+    color: white;
     border-radius: 10px;
 }
 
